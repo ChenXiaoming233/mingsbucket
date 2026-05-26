@@ -13,10 +13,7 @@ scoop install mingsbucket/mingsapp
 
 | 应用名 | 描述 |
 |--------|------|
-| mingsapp | 示例应用 |
-| mycli | 命令行工具 |
-| mingsnote | 轻量级笔记工具 |
-| mingstool | 开发者工具箱 |
+| github-desktop-zhcn | 来自 zetaloop 的 [GitHub Desktop 中文版](https://github.com/zetaloop/desktop) |
 
 ## 许可证
 
