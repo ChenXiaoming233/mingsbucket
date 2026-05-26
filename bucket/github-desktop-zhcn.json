@@ -16,10 +16,13 @@
             "hash": "1ebb2382b144356fb1e9dc34a97c111692b62d4ee1fb4adb1e3fe02560a1b978"
         }
     },
-    "innosetup": true,
-    "post_install": [
-        "Get-ChildItem \"$dir\" -Filter '(*' -Directory | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
-    ],
+    "installer": {
+        "file": "GitHubDesktop-Windows-x64.exe",
+        "args": [
+            "/S",
+            "--silent"
+        ]
+    },
     "bin": [
         ["GitHubDesktop.exe", "github-desktop-zhcn"]
     ],
@@ -28,7 +31,7 @@
     ],
     "checkver": {
         "github": "https://github.com/zetaloop/desktop",
-        "regex": "/releases/tag/release-([\\.\\d]+(?:-beta\\d+)?)"
+        "regex": "/releases/tag/release-([\\d.]+(?:-beta\\d+)?)"
     },
     "autoupdate": {
         "architecture": {
