@@ -1,0 +1,19 @@
+{
+    "version": "2.3.0",
+    "description": "轻量级笔记工具 - MingsNote",
+    "homepage": "https://github.com/mingscn/mingsnote",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/mingscn/mingsnote/releases/download/v2.3.0/MingsNote-Portable.zip",
+    "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "extract_dir": "MingsNote",
+    "bin": "MingsNote.exe",
+    "shortcuts": [
+        ["MingsNote.exe", "MingsNote"]
+    ],
+    "checkver": {
+        "github": "https://github.com/mingscn/mingsnote"
+    },
+    "autoupdate": {
+        "url": "https://github.com/mingscn/mingsnote/releases/download/v$version/MingsNote-Portable.zip"
+    }
+}
