@@ -5,8 +5,7 @@ Mings 的个人 Scoop Bucket，收录常用工具与应用。
 ## 使用方法
 
 ```powershell
-scoop bucket add mingsbucket https://github.com/mingscn/mingsbucket
-scoop install mingsbucket/mingsapp
+scoop bucket add mingsbucket https://github.com/ChenXiaoming233/mingsbucket
 ```
 
 ## 收录清单
